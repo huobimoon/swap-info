@@ -430,10 +430,10 @@ export const Search = ({ small = false }) => {
               : below410
               ? 'Search...'
               : below470
-              ? 'Search PippiSwap...'
+              ? 'Search HuoBiMoon Swap...'
               : below700
               ? 'Search pairs and tokens...'
-              : 'Search PippiSwap pairs and tokens...'
+              : 'Search HuoBiMoon Swap pairs and tokens...'
           }
           value={value}
           onChange={(e) => {
